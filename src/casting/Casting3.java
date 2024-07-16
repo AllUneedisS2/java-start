@@ -11,6 +11,6 @@ public class Casting3 {
         System.out.println("maxIntValue casting=" + intValue);
 
         intValue = (int) maxIntOver; //형변환
-        System.out.println("maxIntOver casting=" + intValue);
+        System.out.println("maxIntOver casting=" + intValue); // -2147483648
     }
 }
